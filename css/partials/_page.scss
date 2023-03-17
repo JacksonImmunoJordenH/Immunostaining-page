@@ -1,0 +1,103 @@
+#along-img {
+    height: 264px;
+    margin: 0;
+}
+
+#inner-img {
+    background: left/cover no-repeat;
+    background-image: url('/img/static-pages/Derek_Sung_Endothelial.jpg');
+    height: 100%;
+}
+
+.ihc-tbl {
+    .req {
+        background-color: #fde5d0;
+    }
+
+    caption {
+        border: 1px solid #ccc;
+        font-size: .875rem;
+        line-height: 1.35rem;
+        padding: 10px;
+        color: #222;
+    }
+
+    td {
+        background-color: #f2f2f2;
+        border: 1px solid $navy;
+        color: $darkBlue;
+    }
+
+    th {
+        border-left: 1px solid #fff;
+
+        &:first-of-type {
+            border-left: 1px solid $blue;
+        }
+    }
+
+    tr {
+        &:first-of-type {
+            td {
+                border-top: none;
+            }
+        }
+    }
+
+    &:nth-of-type(2) {
+        th {
+            &:first-of-type {
+                background-color: unset;
+                border-left: none;
+            }
+
+            &:nth-of-type(2) {
+                border-left: 1px solid $blue;
+            }
+        }
+
+        .req {
+            &:first-of-type {
+                border-top: 1px solid $navy;
+            }
+        }
+    }
+}
+
+.dil-range {
+    th, 
+    td {
+        text-align: center;
+        line-height: 1.3rem;
+    }    
+
+    td {
+        color: $darkBlue;
+        background-color: #fff;
+        border: 1px solid $navy;
+    }
+
+    th {
+        border-left: 1px solid #fff;
+
+        &:first-of-type {
+            border-left: 1px solid $blue;
+        }
+    }
+
+    tr {
+        &:first-of-type {
+            td {
+                border-top: none;
+            }
+        }
+    }
+
+    tr {
+        td {
+            &:first-of-type {
+                background-color: #f2f2f2;
+            }
+        }
+    }
+}
